@@ -21,10 +21,10 @@
     ],
     "paths": {
       "howdy": [
-        "dist/howdy"
+        "projects/howdy/src"
       ],
       "howdy/*": [
-        "dist/howdy/*"
+        "projects/howdy/src/*"
       ]
     }
   },
