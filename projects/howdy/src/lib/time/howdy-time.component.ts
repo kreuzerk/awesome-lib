@@ -1,9 +1,14 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import moment from 'moment';
 
 @Component({
   selector: 'howdy-weather',
-  template: `<h1>Hello the weather is {{weather}}</h1>`
+  template: `<h1>Hello today is the {{time}}</h1>`
 })
-export class HowdyTimeComponent {
-  @Input() weather: string;
+export class HowdyTimeComponent implements OnInit {
+  time: string;
+
+  ngOnInit(): void {
+    this.time = moment().format('DD.MM.YYYY');
+  }
 }
