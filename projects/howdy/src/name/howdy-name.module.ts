@@ -1,9 +1,9 @@
 import {NgModule} from '@angular/core';
 import {HowdyNameComponent} from './howdy-name.component';
-// import {HowdyWeatherModule} from 'howdy/lib/weather';
+import {HowdyWeatherModule} from 'howdy/weather';
 
 @NgModule({
-  // imports: [HowdyWeatherModule],
+  imports: [HowdyWeatherModule],
   declarations: [HowdyNameComponent],
   exports: [HowdyNameComponent]
 })

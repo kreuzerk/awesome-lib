@@ -1,6 +1,6 @@
 /*
  * Public API Surface of howdy
  */
-export * from './lib/name';
-export * from './lib/time';
-export * from './lib/weather';
+export * from './name/index';
+export * from './time/index';
+export * from './weather/index';
