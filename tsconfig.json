@@ -21,7 +21,7 @@
     ],
     "paths": {
       "howdy": [
-        "projects/howdy/src"
+        "projects/howdy/src/"
       ],
       "howdy/*": [
         "projects/howdy/src/*"
