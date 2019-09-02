@@ -1,7 +1,8 @@
-/*
- * Public API Surface of howdy
- */
-
-export * from './lib/name/howdy-name.module';
-export * from './lib/time/howdy-time.module';
-export * from './lib/weather/howdy-weather.module';
+ /* Public API Surface of howdy
+export * from './lib/name/index';
+export * from './lib/time/index';
+export * from './lib/weather/index';
+*/
+export * from 'howdy/lib/name';
+export * from 'howdy/lib/time';
+export * from 'howdy/lib/weather';
