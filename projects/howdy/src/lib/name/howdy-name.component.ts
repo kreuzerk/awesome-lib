@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {Foo} from 'howdy/src/lib/shared';
 
 @Component({
   selector: 'howdy-name',
@@ -6,4 +7,5 @@ import {Component, Input} from '@angular/core';
 })
 export class HowdyNameComponent {
   @Input() name: string;
+  something: Foo;
 }
